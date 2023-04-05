@@ -28,8 +28,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
-    padding: 1.4% 0%;
+    width: 10%;
+    padding: 1% 10px;
     font-size: 12pt;
     background-color: rgba(72, 121, 255, 0.874);
     color: #fff;
@@ -38,10 +38,10 @@
     border-radius: 10px;
     transition: all 0.2s linear;
     /* 水平居中 */
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .next-button:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.2s linear;
 }

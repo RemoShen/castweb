@@ -14,9 +14,9 @@ export default function Home() {
           </p>
         </div>
         <div className="teaser-Btn">
-          <button className="teaserStartBtn" onClick={() => {window.location.href = 'https://canisstudio.github.io/MultimodalCAST/'}}>START</button>
-          <Link to="/tutorial">
-            <button className="teaserTutorialBtn">TUTORIAL</button>
+          <button className="teaserStartBtn" onClick={() => {window.location.href = './System/index.html'}}>START</button>
+          <Link to="/user-study">
+            <button className="teaserTutorialBtn">USER-STUDY</button>
           </Link>
         </div>
       </div>

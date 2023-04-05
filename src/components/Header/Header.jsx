@@ -27,7 +27,7 @@ export default function Header() {
             <NavLink to="/tutorial">TUTORIAL</NavLink>
           </li>
           <li>
-            <NavLink to="/user-study">STUDY</NavLink>
+            <NavLink to="/about">ABOUT</NavLink>
           </li>
           <li>
             <Link onClick={handleRouteClick}>START</Link>

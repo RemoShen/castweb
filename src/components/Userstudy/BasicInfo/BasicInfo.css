@@ -44,6 +44,6 @@ input{
 }
 .start-button:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.2s linear;
 }

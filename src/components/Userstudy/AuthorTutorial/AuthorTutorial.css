@@ -36,21 +36,5 @@
 .first-sub-li{
     color: black;
 }
-.next-button{
-    margin-top: 40px;
-    width: 15%;
-    padding: 1.4% 0%;
-    font-size: 12pt;
-    background-color: rgba(72, 121, 255, 0.874);
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 10px;
-    transition: all 0.2s linear;
-}
-.next-button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.2s linear;
-}
+
 

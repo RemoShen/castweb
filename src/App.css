@@ -37,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 0;
+  overflow: hidden;
+  min-height: calc(100vh - 202px);
+}

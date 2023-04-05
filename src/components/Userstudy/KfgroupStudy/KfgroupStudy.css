@@ -1,0 +1,14 @@
+#group-study-video {
+  display: block;
+  width: 320px;
+  height: 240px;
+  /* center */
+    margin: 2% auto;
+    border: 1px solid #afaaaa;
+
+}
+#group-study-image {
+  display: block;
+  width: 1300px;
+  margin: auto ;
+}

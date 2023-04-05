@@ -1,0 +1,20 @@
+#properties-image {
+  display: block;
+  width: 800px;
+  margin: auto ;
+}
+#other-properties{
+  display: block;
+  width: 800px;
+  margin: 3% auto ;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+  line-height: 30px;
+}
+#properties-title{
+  text-align: left;
+  font-weight: bold;
+}
+#properties-list{
+  display: block;
+  text-align: left;
+}

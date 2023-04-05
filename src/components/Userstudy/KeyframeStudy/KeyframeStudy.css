@@ -1,0 +1,14 @@
+#kf-study-video {
+  display: block;
+  width: 320px;
+  height: 240px;
+  /* center */
+    margin: 2% auto;
+    border: 1px solid #afaaaa;
+
+}
+#kf-study-image {
+  display: block;
+  width: 800px;
+  margin: auto ;
+}

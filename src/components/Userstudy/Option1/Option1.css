@@ -1,0 +1,29 @@
+.option-title {
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+  font-size: 13pt;
+  text-align: left;
+  margin: 2% 0 2% 12%;
+  font-weight: bold;
+}
+.option-video {
+  display: block;
+  width: 256px;
+  height: 192px;
+  border: 1px solid #afaaaa;
+}
+.option-image {
+height: 140px;
+width: 1800px;
+}
+.option-item-container {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0% 0% 0% 10px;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.readingTraining0:hover{
+  cursor: pointer;
+}

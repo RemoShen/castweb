@@ -1,0 +1,81 @@
+/* .training-container {
+  text-align: left;
+  margin: 1% 13%;
+  flex-direction: column;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+} */
+.chart {
+  display: inline-block;
+  margin: 1% 0% 1% 1%;
+}
+
+.chart-title {
+  display: inline-block;
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: normal;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+}
+.chart-image {
+  width: 300px;
+  margin: 0% 0 0% 1%;
+  vertical-align: top;
+}
+.chart-video {
+  width: 300px;
+  margin: 0% 0 0% 1%;
+  vertical-align: top;
+}
+.chart-des {
+  display: inline-block;
+  margin: 1% 0% 1% 1%;
+  width: 700px;
+  text-align: left;
+  font-size:11pt;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+  line-height: 20px;
+}
+.chart-list{
+  font-size: small;
+}
+.button{
+  display:flex;
+  margin: 1% 0% 1% 30%;
+}
+.cast-btn{
+  padding: 1.4% 1.4%;
+  background-color:#007acd;
+  color: #fff;
+  text-transform: uppercase;
+  border: .5px solid #dee1e4;
+  transition: all 0.2s linear;
+  /* 水平居中 */
+  margin: 0 3% 0 0;
+  
+
+}
+.cast-btn:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.next-re{
+  padding: 0.4% 1.4%;
+  background-color: rgba(72, 121, 255, 0.874);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  /* 水平居中 */
+  /* margin: 0 10%; */
+}
+.next-re:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+
+

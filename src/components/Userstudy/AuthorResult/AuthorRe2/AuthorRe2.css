@@ -1,0 +1,54 @@
+.option-test{
+  margin-left: 34%;
+  display: flex;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+  line-height: 50px;
+}
+.readingTrainingtest{
+  display: flex;
+  width: 20px;
+  font-family: "FUTURAL", "Segoe UI", sans-serif;
+  color: #c0bcbd;
+}
+
+.chart-img-ni {
+  width: 300px;
+  margin: 0% 0 0% 1%;
+  vertical-align: top;
+}
+.button{
+  display:flex;
+  margin: 1% 0% 1% 30%;
+}
+.cast-btn{
+  padding: 1.4% 1.4%;
+  background-color:#007acd;
+  color: #fff;
+  text-transform: uppercase;
+  border: .5px solid #dee1e4;
+  transition: all 0.2s linear;
+  
+
+}
+.cast-btn:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+.next-rec{
+  padding: 1.4% 3%;
+  background-color: rgba(72, 121, 255, 0.874);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  margin-left: 20%;
+}
+.next-rec:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.2s linear;
+}
+
+

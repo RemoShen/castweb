@@ -1,0 +1,47 @@
+.first-video-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.first-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 90%;
+    height: 90%; */
+    /* margin-top: 5px; */
+    border: 1px solid #ccc;
+}
+.first-video-title{
+    margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.next-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 1.4% 0%;
+    font-size: 12pt;
+    background-color: rgba(72, 121, 255, 0.874);
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    /* 水平居中 */
+    margin: 0 auto;
+}
+.next-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+}

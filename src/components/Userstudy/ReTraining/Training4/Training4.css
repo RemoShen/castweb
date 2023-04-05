@@ -6,29 +6,29 @@
   font-weight: bold;
   font-family: "FUTURAL", "Segoe UI", sans-serif;
 } */
-.chart {
+.chart4 {
   display: inline-block;
-  margin: 1% 0% 1% 1%;
+  margin: 2% 5% 1% 5%;
 }
 
-.chart-title {
+.chart4-title {
   display: inline-block;
   font-size: 1.1em;
   text-align: left;
   font-weight: normal;
   font-family: "FUTURAL", "Segoe UI", sans-serif;
 }
-.chart-image {
+.chart4-image {
   width: 300px;
   margin: 0% 0 0% 1%;
   vertical-align: top;
 }
-.chart-video {
+.chart4-video {
   width: 300px;
   margin: 0% 0 0% 1%;
   vertical-align: top;
 }
-.chart-des {
+.chart4-des {
   display: inline-block;
   margin: 1% 0% 1% 1%;
   width: 700px;
@@ -37,7 +37,7 @@
   font-family: "FUTURAL", "Segoe UI", sans-serif;
   line-height: 20px;
 }
-.chart-list{
+.chart4-list{
   font-size: small;
 }
 .button{

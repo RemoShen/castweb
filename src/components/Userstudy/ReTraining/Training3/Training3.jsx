@@ -13,23 +13,23 @@ export default function Training3({ onNext }) {
   };
   return (
     <form onSubmit={onNext}>
-      <div className="chart">
-        <h1 className="chart-title">Visualization Chart:</h1>
-        <img className="chart-image" src={image} alt="chart"></img>
+      <div className="chart3">
+        <h1 className="chart3-title">Visualization Chart:</h1>
+        <img className="chart3-image" src={image} alt="chart"></img>
       </div>
-      <div className="chart">
-        <h1 className="chart-title">Target Animation:</h1>
-        <video className="chart-video" controls>
-          <source className="chart-video" src={video}></source>
+      <div className="chart3">
+        <h1 className="chart3-title">Target Animation:</h1>
+        <video className="chart3-video" controls>
+          <source className="chart3-video" src={video}></source>
         </video>
       </div>
-      <div className="chart-des">
+      <div className="chart3-des">
         <div className="train-description">
           Animation Description: axis, legend, and title first, then animate
           bars by question idx, for each question, animate "Disagree" bars after
           "Agree" bars.
         </div>
-        <ul className="chart-list">
+        <ul className="chart3-list">
           <li>duration: 1000ms</li>
           <li>
             effect type: fade (axis, title, legend) wipe bottom (Agree), wipe

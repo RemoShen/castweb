@@ -14,23 +14,23 @@ export default function Training1({ onNext }) {
   };
   return (
     <form onSubmit={onNext}>
-      <div className="chart">
-        <h1 className="chart-title">Visualization Chart:</h1>
-        <img className="chart-image" src={image} alt="chart"></img>
+      <div className="chart1">
+        <h1 className="chart1-title">Visualization Chart:</h1>
+        <img className="chart1-image" src={image} alt="chart"></img>
       </div>
-      <div className="chart">
-        <h1 className="chart-title">Target Animation:</h1>
-        <video className="chart-video" controls>
-          <source className="chart-video" src={video}></source>
+      <div className="chart1">
+        <h1 className="chart1-title">Target Animation:</h1>
+        <video className="chart1-video" controls>
+          <source className="chart1-video" src={video}></source>
         </video>
       </div>
-      <div className="chart-des">
+      <div className="chart1-des">
         <div className="train-description">
           Animation Description: axis, legend, and title first, then animate
           each cause one after another, within each cause, animate month after
           month.
         </div>
-        <ul className="chart-list">
+        <ul className="chart1-list">
           <li>duration for each wedge: 600ms</li>
           <li>effect type: fade (axis, title, legend), wheel (wedges)</li>
         </ul>

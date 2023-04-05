@@ -13,23 +13,23 @@ export default function Test3({ onNext }) {
   };
   return (
     <form onSubmit={onNext}>
-      <div className="chart">
-        <h1 className="chart-title">Visualization Chart:</h1>
-        <img className="chart-image" src={image} alt="chart"></img>
+      <div className="chart7">
+        <h1 className="chart7-title">Visualization Chart:</h1>
+        <img className="chart7-image" src={image} alt="chart"></img>
       </div>
-      <div className="chart">
-        <h1 className="chart-title">Target Animation:</h1>
-        <video className="chart-video" controls>
-          <source className="chart-video" src={video}></source>
+      <div className="chart7">
+        <h1 className="chart7-title">Target Animation:</h1>
+        <video className="chart7-video" controls>
+          <source className="chart7-video" src={video}></source>
         </video>
       </div>
-      <div className="chart-des">
+      <div className="chart7-des">
         <div className="train-description">
           Animation Description: fade in x axis first, then y axis on the left,
           then animate all bars at the same time, then y axis on the right, then
           dot and label at the same time, finally the links one by one.
         </div>
-        <ul className="chart-list">
+        <ul className="chart7-list">
           <li>
             duration: 300ms (axis), 1000ms (dots, labels, bars, and links)
           </li>

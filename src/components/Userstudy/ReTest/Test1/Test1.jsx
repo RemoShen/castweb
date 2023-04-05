@@ -13,23 +13,23 @@ export default function Test1({ onNext }) {
   };
   return (
     <form onSubmit={onNext}>
-      <div className="chart">
-        <h1 className="chart-title">Visualization Chart:</h1>
-        <img className="chart-image" src={image} alt="chart"></img>
+      <div className="chart5">
+        <h1 className="chart5-title">Visualization Chart:</h1>
+        <img className="chart5-image" src={image} alt="chart"></img>
       </div>
-      <div className="chart">
-        <h1 className="chart-title">Target Animation:</h1>
-        <video className="chart-video" controls>
-          <source className="chart-video" src={video}></source>
+      <div className="chart5">
+        <h1 className="chart5-title">Target Animation:</h1>
+        <video className="chart5-video" controls>
+          <source className="chart5-video" src={video}></source>
         </video>
       </div>
-      <div className="chart-des">
+      <div className="chart5-des">
         <div className="train-description">
           Animation Description: axis, legend, and title first, then line of
           each country start at the same time. For each line, dot and the link
           starts at this dot animate at the same time, then next dot and link.
         </div>
-        <ul className="chart-list">
+        <ul className="chart5-list">
           <li>duration: 300ms (dots & link)</li>
           <li>effect type: fade (axis, title, legend, dots), grow (link)</li>
         </ul>

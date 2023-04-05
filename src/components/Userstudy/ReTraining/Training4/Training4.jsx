@@ -13,23 +13,23 @@ export default function Training4({ onNext }) {
   };
   return (
     <form onSubmit={onNext}>
-      <div className="chart">
-        <h1 className="chart-title">Visualization Chart:</h1>
-        <img className="chart-image" src={image} alt="chart"></img>
+      <div className="chart4">
+        <h1 className="chart4-title">Visualization Chart:</h1>
+        <img className="chart4-image" src={image} alt="chart"></img>
       </div>
-      <div className="chart">
-        <h1 className="chart-title">Target Animation:</h1>
-        <video className="chart-video" controls>
-          <source className="chart-video" src={video}></source>
+      <div className="chart4">
+        <h1 className="chart4-title">Target Animation:</h1>
+        <video className="chart4-video" controls>
+          <source className="chart4-video" src={video}></source>
         </video>
       </div>
-      <div className="chart-des">
+      <div className="chart4-des">
         <div className="train-description">
           Animation Description: axis, legend, and title first, then animate the
           dot, corresponding label and link start from this dot at the same
           time.
         </div>
-        <ul className="chart-list">
+        <ul className="chart4-list">
           <li>duration: 600ms (dot and label), 1200ms (link)</li>
           <li>
             effect type: fade (axis, title, legend, dot), wipe left (label),

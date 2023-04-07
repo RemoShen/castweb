@@ -354,7 +354,7 @@ export default function Tutorial() {
         <h3 className="sub3title">Change Effect & Easing To Keyframes</h3>
         <ul className="tutorial-text-list">
           <li>Touch one keyframe in the group</li>
-          <li>draw some tracks to change the effect of a mark group</li>
+          <li>Draw some tracks to change the effect of a mark group</li>
         </ul>
         <div className="single-img">
           <img src={effect} className="selection-img" alt=""></img>

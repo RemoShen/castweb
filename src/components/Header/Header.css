@@ -57,7 +57,10 @@ header {
   font-family: fantasy;
   font-size: 28px;
 }
-.active{
+.title:hover {
+  cursor:default;
+}
+.active {
   border-radius: 10px;
   background-color: rgb(134, 196, 254);
   color: #fff !important;

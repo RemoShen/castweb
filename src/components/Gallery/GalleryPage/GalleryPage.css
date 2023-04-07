@@ -1,0 +1,29 @@
+.detail {
+  margin-top: 2%;
+}
+.detail-item {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+.detail-img {
+    max-width: 400px;
+    height: auto;
+    display: inline-flex;   
+}
+.detail-pre{
+    max-width: 400px;
+    /* height: auto; */
+    border: 1px solid #ccc;
+}
+.detail-chart{
+    margin: 1% 26%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+

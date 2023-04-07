@@ -6,6 +6,8 @@ import Gallery from "./components/Gallery/Gallery";
 import Tutorial from "./components/Tutorial/Tutorial";
 import About from "./components/About/About";
 import Userstudy from "./components/Userstudy/Userstudy";
+import GalleryPage from "./components/Gallery/GalleryPage/GalleryPage";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
           <Route path="/tutorial" element={<Tutorial />} />
           <Route path="/about" element={<About />} />
           <Route path="/user-study" element={<Userstudy />} />
+          <Route path="/gallery/:itemId" element={<GalleryPage />} />
         </Routes>
       </div>
     </div>

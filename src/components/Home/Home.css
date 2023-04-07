@@ -68,3 +68,6 @@
   font-weight: 600;
   transition: all 0.2s linear;
 }
+.teaser-text:hover{
+  cursor:default
+}

@@ -12,6 +12,7 @@ export default function Header() {
   return (
     <header>
       <img className="logo" src={logo} alt="" />
+
       <h1 className="title">
         Canis Studio <sup>2</sup>
       </h1>

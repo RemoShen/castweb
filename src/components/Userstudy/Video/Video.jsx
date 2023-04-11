@@ -8,7 +8,7 @@ export default function Video({ onNext }) {
       <div className="first-video-page">
         <h1 className="first-video-title">Please see the video</h1>
         <video className="first-video" controls>
-          <source src={video} type="video/mp4" />
+          {/* <source src={video} type="video/mp4" /> */}
         </video>
         <button className="next-button" type="submit">
           Continue

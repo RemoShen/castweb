@@ -9,7 +9,7 @@ import selection from "./selection.png";
 import spec from "./spec.png";
 import effect from "./effect.png";
 import complete from "./complete.png";
-
+import panel from "./panel.png"
 const scrollToAnchor = (anchorName) => {
   if (anchorName) {
     let anchorElement = document.getElementById(anchorName);
@@ -136,10 +136,10 @@ export default function Tutorial() {
               authoring how the chart is animated using static visual
               representations.
             </li>
-            <p style={{ color: "red" }}>IMAGE!!!!!!</p>
-            {/* <div className="single-img">
-              <img src={kfgroup} className="kfgroup-img"></img>
-            </div> */}
+            {/* <p style={{ color: "red" }}>IMAGE!!!!!!</p> */}
+            <div className="single-img">
+              <img src={panel} className="kfgroup-img"></img>
+            </div>
           </ul>
         </div>
         <h1 id="Visual Specification Link" className="tutorialh">
@@ -212,7 +212,7 @@ export default function Tutorial() {
             between every two keyframes, note that delay can also be a negative
             number, which means that the next keyframe starts some time before
             the end of the previous keyframe. The system will automatically set
-            the same de la y for the other keyframes in the keyframe group where
+            the same delay for the other keyframes in the keyframe group where
             the keyframe is located.
           </li>
           <li>

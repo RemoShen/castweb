@@ -15,8 +15,8 @@ export default function Home() {
         </div>
         <div className="teaser-Btn">
           <button className="teaserStartBtn" onClick={() => {window.location.href = './System/index.html'}}>START</button>
-          <Link to="/user-study">
-            <button className="teaserTutorialBtn">USER-STUDY</button>
+          <Link to="/tutorial">
+            <button className="teaserTutorialBtn">TUTORIAL</button>
           </Link>
         </div>
       </div>

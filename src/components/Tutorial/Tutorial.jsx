@@ -9,7 +9,9 @@ import selection from "./selection.png";
 import spec from "./spec.png";
 import effect from "./effect.png";
 import complete from "./complete.png";
-import panel from "./panel.png"
+import panel from "./panel.png";
+import nextKf from "./nextKf.png";
+import sort from "./sort.png";
 const scrollToAnchor = (anchorName) => {
   if (anchorName) {
     let anchorElement = document.getElementById(anchorName);
@@ -85,9 +87,15 @@ export default function Tutorial() {
               </li>
               <li
                 className="sub-nav-item"
-                onClick={() => scrollToAnchor("Animating Link")}
+                onClick={() => scrollToAnchor("Mark Completion Link")}
               >
                 Mark Completion
+              </li>
+              <li
+                className="sub-nav-item"
+                onClick={() => scrollToAnchor("Next Kf Link")}
+              >
+                Next Keyframe
               </li>
               <li
                 className="sub-nav-item"
@@ -136,7 +144,6 @@ export default function Tutorial() {
               authoring how the chart is animated using static visual
               representations.
             </li>
-            {/* <p style={{ color: "red" }}>IMAGE!!!!!!</p> */}
             <div className="single-img">
               <img src={panel} className="kfgroup-img"></img>
             </div>
@@ -339,6 +346,18 @@ export default function Tutorial() {
         <div className="single-img">
           <img src={complete} className="spec-img" alt=""></img>
         </div>
+        <h2 id="Next Kf Link" className="subh">
+          Next Keyframe
+        </h2>
+        <p className="tutorial-text">
+          After the user selects the marks, the system will recommend the next
+          keyframes, and the user can choose one result from the recommend list
+          or they can filter the results which contain the marks they select
+          from the input chart.
+        </p>
+        <div className="single-img">
+          <img src={nextKf} className="spec-img" alt=""></img>
+        </div>
         <h2 id="Animating Link" className="subh">
           Animating
         </h2>
@@ -358,6 +377,14 @@ export default function Tutorial() {
         </ul>
         <div className="single-img">
           <img src={effect} className="selection-img" alt=""></img>
+        </div>
+        <h3 className="sub3title">Sort kerframe items according to data</h3>
+        <ul className="tutorial-text-list">
+          <li>Hover your mouse into the kerframe title</li>
+          <li>Select target data and sorting method</li>
+        </ul>
+        <div className="single-img">
+          <img src={sort} className="selection-img" alt=""></img>
         </div>
       </div>
     </div>

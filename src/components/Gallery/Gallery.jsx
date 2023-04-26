@@ -34,6 +34,7 @@ export default function Gallery() {
     let animation = null;
 
     useEffect(() => {
+      // eslint-disable-next-line
       animation = lottie.loadAnimation({
         container: animationContainer.current,
         renderer: "svg",
@@ -67,28 +68,30 @@ export default function Gallery() {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img
-          src={staticImage}
-          alt="Static Image"
+        <div
+          ref={animationContainer}
           style={{
             position: "absolute",
             top: 0,
             left: 0,
-            width: "100%",
-            height: "100%",
-            display: isHovering ? "none" : "block",
+            width: "300px",
+            height: "300px",
+            // display: isHovering ? "block" : "none",
+            opacity: isHovering ? 1 : 0,
             transition: "opacity 0.3s ease",
           }}
         />
-        <div
-          ref={animationContainer}
+        <img
+          src={staticImage}
+          alt=""
           style={{
             position: "relative",
-            top: -300,
+            top: 0,
             left: 0,
             width: "100%",
             height: "100%",
-            display: isHovering ? "block" : "none",
+            // display: isHovering ? "none" : "block",
+            opacity: isHovering ? 0 : 1,
             transition: "opacity 0.3s ease",
           }}
         />

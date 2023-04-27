@@ -9,8 +9,9 @@ import gal2_img from "../gal2/dessert.png";
 import gal3_ani from "../gal3/driving_s.mp4";
 import gal3_img from "../gal3/driving.png";
 import gal3_ani_s from "../gal3/driving.mp4";
-import gal4_ani from "../gal4/gantt.json";
+import gal4_ani from "../gal4/gantt_s.mp4";
 import gal4_img from "../gal4/gantt.png";
+import gal4_ani_s from "../gal4/gantt.mp4";
 import gal5_ani from "../gal5/fruitsale_s.mp4";
 import gal5_img from "../gal5/fruitsale.png";
 import gal5_ani_s from "../gal5/fruitsale.mp4";
@@ -68,8 +69,11 @@ export default function GalleryPage() {
     {
       animationData: gal4_ani,
       staticImage: gal4_img,
+      manipulateData: gal4_ani_s,
       title: "Event Plan Gantt Chart",
-      chart: "",
+      chart: "Chart: A bar chart describing the event plan gantt chart.",
+      animation:
+        "Animation: The animation starts with the title first. Then the axis fade in. Finally, the bar fade in one by one with the same rate corresponding with the title.",
     },
     {
       animationData: gal5_ani,
@@ -156,7 +160,11 @@ export default function GalleryPage() {
       <p className="detail-chart">{galleryData[itemId].chart}</p>
       <p className="detail-chart">{galleryData[itemId].animation}</p>
       <div className="detail-item">
-        <img className="detail-img" alt="" src={galleryData[itemId].staticImage} />
+        <img
+          className="detail-img"
+          alt=""
+          src={galleryData[itemId].staticImage}
+        />
         <video
           className="detail-pre"
           src={galleryData[itemId].animationData}

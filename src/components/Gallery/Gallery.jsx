@@ -73,7 +73,7 @@ export default function Gallery() {
           ref={animationContainer}
           style={{
             position: "absolute",
-            top: -300,
+            top: 0,
             left: 0,
             width: "300px",
             height: "300px",

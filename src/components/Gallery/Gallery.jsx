@@ -46,6 +46,7 @@ export default function Gallery() {
 
     const handleMouseEnter = () => {
       if (animation) {
+        // animation.goToAndPlay(0);
         animation.play();
       }
       setIsHovering(true);
@@ -72,7 +73,7 @@ export default function Gallery() {
           ref={animationContainer}
           style={{
             position: "absolute",
-            top: 0,
+            top: -300,
             left: 0,
             width: "300px",
             height: "300px",

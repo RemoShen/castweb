@@ -4,8 +4,9 @@ import "./GalleryPage.css";
 import gal1_ani from "../gal1/hiring_s.mp4";
 import gal1_img from "../gal1/hiring.png";
 import gal1_ani_s from "../gal1/hiring.mp4";
-import gal2_ani from "../gal2/dessert.json";
+import gal2_ani from "../gal2/dessert_s.mp4";
 import gal2_img from "../gal2/dessert.png";
+import gal2_ani_s from "../gal2/dessert.mp4";
 import gal3_ani from "../gal3/driving_s.mp4";
 import gal3_img from "../gal3/driving.png";
 import gal3_ani_s from "../gal3/driving.mp4";
@@ -53,8 +54,10 @@ export default function GalleryPage() {
     {
       animationData: gal2_ani,
       staticImage: gal2_img,
+      manipulateData: gal2_ani_s,
       title: "Most Requested Diner Dessert",
-      chart: "",
+      chart: "Chart: A pie chart describing the most requested diner dessert based on customer receipts.",
+      animation: "Animation: The animation starts with the title first. Then the label fade in. Finally, the pie chart wheel in with the same rate."
     },
     {
       animationData: gal3_ani,

@@ -12,8 +12,8 @@ import gal4_ani from "./gal4/gantt.json";
 import gal4_img from "./gal4/gantt.png";
 import gal5_ani from "./gal5/fruitsale.json";
 import gal5_img from "./gal5/fruitsale.png";
-import gal6_ani from "./gal6/education.json";
-import gal6_img from "./gal6/education.png";
+import gal6_ani from "./gal6/gdp.json";
+import gal6_img from "./gal6/gdp.png";
 import gal7_ani from "./gal7/nightingale.json";
 import gal7_img from "./gal7/nightingale.png";
 import gal8_ani from "./gal8/weather.json";
@@ -26,8 +26,6 @@ import gal11_img from "./gal11/co2.png";
 import gal11_ani from "./gal11/co2.json";
 import gal12_img from "./gal12/purchase.png";
 import gal12_ani from "./gal12/purchase.json";
-import gal13_img from "./gal13/gdp.png";
-import gal13_ani from "./gal13/gdp.json";
 
 export default function Gallery() {
   const LottieAnimation = ({ animationData, staticImage }) => {
@@ -136,7 +134,7 @@ export default function Gallery() {
       id: 6,
       animationData: gal6_ani,
       staticImage: gal6_img,
-      title: "Higher Education v.s. Obesity",
+      title: "Doughnut Purchase(1996-2014)",
     },
     {
       id: 7,
@@ -172,12 +170,6 @@ export default function Gallery() {
       id: 12,
       animationData: gal12_ani,
       staticImage: gal12_img,
-      title: "Doughnut Purchase(1996-2014)",
-    },
-    {
-      id: 13,
-      animationData: gal13_ani,
-      staticImage: gal13_img,
       title: "Doughnut Purchase(1996-2014)",
     },
   ];

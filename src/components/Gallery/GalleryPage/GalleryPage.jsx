@@ -16,9 +16,9 @@ import gal4_ani_s from "../gal4/gantt.mp4";
 import gal5_ani from "../gal5/fruitsale_s.mp4";
 import gal5_img from "../gal5/fruitsale.png";
 import gal5_ani_s from "../gal5/fruitsale.mp4";
-import gal6_ani from "../gal6/education_s.mp4";
-import gal6_img from "../gal6/education.png";
-import gal6_ani_s from "../gal6/education.mp4";
+import gal6_ani from "../gal6/gdp_s.mp4";
+import gal6_img from "../gal6/gdp.png";
+import gal6_ani_s from "../gal6/gdp.mp4";
 import gal7_ani from "../gal7/nightingale_s.mp4";
 import gal7_img from "../gal7/nightingale.png";
 import gal7_ani_s from "../gal7/nightingale.mp4";
@@ -37,9 +37,6 @@ import gal11_ani_s from "../gal11/co2.mp4";
 import gal12_img from "../gal12/purchase.png";
 import gal12_ani from "../gal12/purchase_s.mp4";
 import gal12_ani_s from "../gal12/purchase.mp4";
-import gal13_img from "../gal13/gdp.png";
-import gal13_ani from "../gal13/gdp_s.mp4";
-import gal13_ani_s from "../gal13/gdp.mp4";
 export default function GalleryPage() {
   const { itemId } = useParams();
 
@@ -94,10 +91,11 @@ export default function GalleryPage() {
       animationData: gal6_ani,
       staticImage: gal6_img,
       manipulateData: gal6_ani_s,
-      title: "Higher Education v.s. Obesity",
-      chart: "Chart: A line chart describing Higher Education v.s. Obesity.",
+      title: "Gdp of Regions from 1900 to 2020",
+      chart:
+        "Chart: A line chart describing the trend of gdp of regions from 1900 to 2020.",
       animation:
-        "Animation: Title grow first. Then the bar and legend fade in one by one.",
+        "Animation: The title and left y-axis and the x-axis-domain fade in first. Then the symbol fade in from left to right corresponding to the year label. Finally, the line grow from left to right.",
     },
     {
       animationData: gal7_ani,
@@ -158,16 +156,6 @@ export default function GalleryPage() {
         "Chart: A line chart describing the trend of doughnut purchases from 1996 to 2014.",
       animation:
         "Animation: The title and left y-axis and the x-axis-domain fade in first. Then the symbol fade in from left to right corresponding to the year label. Finally, the line grow from left to right with the text label.",
-    },
-    {
-      animationData: gal13_ani,
-      staticImage: gal13_img,
-      manipulateData: gal13_ani_s,
-      title: "Gdp of Regions from 1900 to 2020",
-      chart:
-        "Chart: A line chart describing the trend of gdp of regions from 1900 to 2020.",
-      animation:
-        "Animation: The title and left y-axis and the x-axis-domain fade in first. Then the symbol fade in from left to right corresponding to the year label. Finally, the line grow from left to right.",
     },
   ];
   return (

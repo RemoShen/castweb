@@ -17,6 +17,7 @@ header {
 .menuContainer {
   flex: 1 1;
   height: 90px;
+  padding-left: 12%;
   display: inline-flex;
   align-items: center;
   width: 70%;

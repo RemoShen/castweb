@@ -14,7 +14,7 @@ export default function Header() {
       <img className="logo" src={logo} alt="" />
 
       <h1 className="title">
-        Canis Studio <sup>2</sup>
+        CAST<sup>2</sup>
       </h1>
       <div className="menuContainer">
         <ul className="menu">

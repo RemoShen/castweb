@@ -146,7 +146,7 @@ export default function Tutorial() {
               representations.
             </li>
             <div className="single-img">
-              <img src={panel} className="kfgroup-img"></img>
+              <img src={panel} className="kfgroup-img" alt=""></img>
             </div>
           </ul>
         </div>

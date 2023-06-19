@@ -1,43 +1,25 @@
 .teaser-container {
-  display: flex;
   width: 100%;
-  padding: 0 10%;
-  left: 0;
 }
 .teaser-pre {
   text-align: center;
-  font-size: 42px;
-  font-weight: bolder;
+  font-size: 46px;
+  letter-spacing: 2px;
   color: #464553;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
-.teaser-title {
-  text-align: right;
-  padding: 3% 15%;
-  font-size: 30px;
-  font-weight: bolder;
-  color: rgba(70, 69, 83, 0.7);
-  letter-spacing: 12px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  /* font-family: fantasy; */
+.teaser-top {
+  width: 100%;
+  text-align: center;
+  padding: 2% 2% 1% 2%;
 }
-.teaser-left {
-  width: 25%;
-  text-align: left;
-  display: block;
-  padding: 5% 2%;
-}
-.teaser-right {
-  width: 40%;
-  text-align: left;
-  display: block;
-  padding: 5% 2%;
+.teaser- bottom {
+  padding: 2% 2%;
 }
 .teaser-Btn {
   display: flex;
-  justify-content: space-between;
-  padding: 5% 8%;
+  justify-content: space-around;
+  padding: 2% 40% 0 40%;
 }
 .teaser-Btn :hover {
   cursor: pointer;
@@ -70,4 +52,28 @@
 }
 .teaser-text:hover{
   cursor:default
+}
+.teaser-img{
+  width: 60%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#show-box {
+  margin: 1% 20%;
+}
+
+.show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 1% 15%; */
+}
+.show-item {
+  /* flex-basis: calc(24%); */
+  margin-bottom: 10px;
+  text-align: center;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  /* position: relative; */
 }

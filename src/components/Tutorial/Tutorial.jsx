@@ -124,31 +124,33 @@ export default function Tutorial() {
             The user interface of CAST<sup>2</sup> consists of the following
             components:
           </p>
-          <ul className="tutorial-text-list">
-            <li>
-              <strong>Chart Panel:</strong> The input chart, which is also for
-              mark selection.
-            </li>
-            <li>
-              <strong>View Panel:</strong> You can preview the data animation
-              you author.
-            </li>
+          <ol className="tutorial-text-list" type="a">
+            {/* 小写英文字母排序 */}
+
             <li>
               <strong>Data Panel:</strong> The data table discribe your input
               svg.
             </li>
             <li>
-              <strong>Tool Menu:</strong> Title menu and some common functions.
+              <strong>Chart Panel:</strong> The input chart, which is also for
+              mark selection.
             </li>
             <li>
-              <strong> Animation Specification Panel:</strong>Illustrating and
+              <strong>Animation Panel:</strong> You can preview the data animation
+              you author.
+            </li>
+            {/* <li>
+              <strong>Tool Menu:</strong> Title menu and some common functions.
+            </li> */}
+            <li>
+              <strong> Keyframe Panel:</strong>Illustrating and
               authoring how the chart is animated using static visual
               representations.
             </li>
             <div className="single-img">
               <img src={panel} className="kfgroup-img" alt=""></img>
             </div>
-          </ul>
+          </ol>
         </div>
         <h1 id="Visual Specification Link" className="tutorialh">
           Visual Specification

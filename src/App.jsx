@@ -7,6 +7,7 @@ import Tutorial from "./components/Tutorial/Tutorial";
 import About from "./components/About/About";
 import Userstudy from "./components/Userstudy/Userstudy";
 import GalleryPage from "./components/Gallery/GalleryPage/GalleryPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/gallery/:itemId" element={<GalleryPage />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,3 @@
-//create a component called Header
-//this component will be used in the App.js file
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
 import logo from "./castlogo.png";
@@ -13,9 +11,9 @@ export default function Header() {
     <header>
       <img className="logo" src={logo} alt="" />
 
-      <h1 className="title">
-        CAST<sup>2</sup>
-      </h1>
+      {/* <h1 className="title">
+        CAST2
+      </h1> */}
       <div className="menuContainer">
         <ul className="menu">
           <li>
@@ -31,7 +29,7 @@ export default function Header() {
             <NavLink to="/about">ABOUT</NavLink>
           </li>
           <li>
-            <Link onClick={handleRouteClick}>START</Link>
+            <Link onClick={handleRouteClick}>Launch</Link>
           </li>
         </ul>
       </div>

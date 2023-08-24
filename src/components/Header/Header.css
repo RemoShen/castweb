@@ -1,22 +1,21 @@
 header {
   width: 100%;
   display: flex;
-  padding: 0 8%;
+  padding: 0 10%;
   position: fixed;
   box-sizing: border-box;
-  /* bottom line */
   border-bottom: 2px solid rgba(70, 69, 83, 0.15);
   z-index: 999;
-  background-color: #fff;
+  background-color: #fff; 
 }
 .logo {
   width: 50px;
   height: 50px;
-  padding: 20px;
+  padding: 15px;
 }
 .menuContainer {
   flex: 1 1;
-  height: 90px;
+  height: 80px;
   padding-left: 12%;
   display: inline-flex;
   align-items: center;
@@ -30,8 +29,11 @@ header {
   justify-content: space-between;
 }
 .menu li {
-  padding: 0% 8%;
+  padding: 0% 10%;
   transition: all 200ms linear;
+}
+.menu li:first-child {
+  margin-left: 0;
 }
 .menu li a {
   text-decoration: none;
@@ -59,7 +61,7 @@ header {
   font-size: 28px;
 }
 .title:hover {
-  cursor:default;
+  cursor: default;
 }
 .active {
   border-radius: 10px;

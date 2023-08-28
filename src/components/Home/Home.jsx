@@ -144,7 +144,7 @@ export default function Home() {
               window.location.href = "https://ideas-laboratory.github.io/cast";
             }}
           >
-            VISIT CAST
+            VISIT CAST (V1.0)
           </button>
         </div>
       </div>

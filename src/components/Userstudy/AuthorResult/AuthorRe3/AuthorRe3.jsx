@@ -33,7 +33,7 @@ export default function AuthorRe3({ onNext }) {
           open cast
         </button>
         <button className="cast-btn" onClick={handleClick2} type="button">
-          open cast<sup>2</sup>
+          open CAST
         </button>
       </div>
       <div className="option-test">
@@ -44,7 +44,7 @@ export default function AuthorRe3({ onNext }) {
           value={0}
           onChange={handleOptionChange}
         ></input>
-        I can author the goal animation with both CAST and CAST<sup>2</sup>.
+        I can author the goal animation with both CAST and CAST.
       </div>
       <div className="option-test">
         <input

@@ -38,7 +38,7 @@ export default function Test2({ onNext }) {
           Load this chart in cast
         </button>
         <button className="cast-btn" onClick={handleClick2} type="button">
-          Load this chart in cast<sup>2</sup>
+          Load this chart in CAST
         </button>
         <button className="next-re" type="submit">
           Next

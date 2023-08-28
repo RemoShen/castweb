@@ -116,18 +116,18 @@ export default function Home() {
     <div className="teaser-container">
       <div className="teaser-top">
         <div className="teaser-text">
-          <h1 className="teaser-pre">CAST 2&mdash;Canis Studio 2</h1>
+          <h1 className="teaser-pre">CAST&mdash;Canis Studio(V2.0)</h1>
           <p className="teaser-par">
-            CAST2 provides an easy access to authoring expressive chart
+            CAST provides an easy access to authoring expressive chart
             animations especially for people who lacks programming skills. It
             represents the animation with the means of an intuitive visual
             language. And by interactively editing the visual elements, the
             designer can alter the animation properties. Under the
-            keyframe-based authoring paradigm, CAST2 enables the designer to
+            keyframe-based authoring paradigm, CAST enables the designer to
             create animations in three steps: keyframe construction, keyframe
             sequencing and keyframe properties specification. Meanwhile, in
             order to improve the efficiency and rationality of the result
-            animations, CAST2 also proposed suggestion strategies in keyframe
+            animations, CAST also proposed suggestion strategies in keyframe
             construction and sequencing.
           </p>
           <button
@@ -158,7 +158,7 @@ export default function Home() {
             ></div>
             <h5>Explicit Visual language</h5>
             <p>
-              CAST2 uses a visual language which can explicitly describe the
+              CAST uses a visual language which can explicitly describe the
               chart animation process.
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function Home() {
             ></div>
             <h5>No Textual Programming</h5>
             <p>
-              CAST2 avoids textual coding by providing intuitive interactions
+              CAST avoids textual coding by providing intuitive interactions
               over the visual language to specify chart animations.
             </p>
           </div>
@@ -182,7 +182,7 @@ export default function Home() {
             ></div>
             <h5>Efficient Construction</h5>
             <p>
-              CAST2 provides recommandation on keyframe construction and
+              CAST provides recommandation on keyframe construction and
               sequencing in order to improve the efficiency and rationality.
             </p>
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
         <div className="feature-inner-container-col">
           <div className="feature-text">
             <p>
-              This video shows how CAST2 works in action with 2 examples
+              This video shows how CAST works in action with 2 examples
               scenarios.
             </p>
           </div>

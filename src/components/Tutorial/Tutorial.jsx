@@ -113,7 +113,7 @@ export default function Tutorial() {
           Overview
         </h1>
         <p className="tutorial-text">
-          CAST<sup>2</sup> uses a series of visual representations to
+          CAST uses a series of visual representations to
           describe and generate expressive chart animations.
         </p>
         <h1 id="UI Components Link" className="tutorialh">
@@ -121,7 +121,7 @@ export default function Tutorial() {
         </h1>
         <div className="ui-text">
           <p className="tutorial-text">
-            The user interface of CAST<sup>2</sup> consists of the following
+            The user interface of CAST consists of the following
             components:
           </p>
           <ol className="tutorial-text-list" type="a">
@@ -160,7 +160,7 @@ export default function Tutorial() {
         </h2>
         <p className="tutorial-text">
           Chart animations can be represented with a keyframe sequence. For each
-          mark unit, CAST<sup>2</sup> selects the last frame of its
+          mark unit, CAST selects the last frame of its
           animation as the keyframe. As shown in the following example, the
           animation of the facet dot plots can be represented with a series of
           frames, and one keyframe for each cell is extracted by Canis Studio
@@ -192,7 +192,7 @@ export default function Tutorial() {
           The animation is used to convey data patterns. Thus the mark unit is
           created by gradually grouping all visual marks with data variables.
           And a hierarchical structure will be generated from this grouping
-          procedure. CAST<sup>2</sup> uses title bars to represent this
+          procedure. CAST uses title bars to represent this
           grouping hierarchy, and the gray scale of the bar indicates the depth
           level of this group.
         </p>
@@ -203,7 +203,7 @@ export default function Tutorial() {
           Representation
         </h2>
         <p className="tutorial-text">
-          CAST<sup>2</sup> uses the following properties to describe the
+          CAST uses the following properties to describe the
           animation of each mark unit:
         </p>
         <ul className="tutorial-text-list">
@@ -241,7 +241,7 @@ export default function Tutorial() {
           Author Chart Animations
         </h1>
         <p className="tutorial-text">
-          CAST<sup>2</sup> uses the following four steps to author chart
+          CAST uses the following four steps to author chart
           animations:
         </p>
         <ul className="tutorial-text-list">

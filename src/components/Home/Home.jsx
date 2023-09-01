@@ -116,7 +116,7 @@ export default function Home() {
     <div className="teaser-container">
       <div className="teaser-top">
         <div className="teaser-text">
-          <h1 className="teaser-pre">CAST&mdash;Canis Studio(V2.0)</h1>
+          <h1 className="teaser-pre">CAST&mdash;Canis Studio</h1>
           <p className="teaser-par">
             CAST provides an easy access to authoring expressive chart
             animations especially for people who lacks programming skills. It
@@ -136,7 +136,7 @@ export default function Home() {
               window.location.href = "./System/index.html";
             }}
           >
-            CREATE YOUR ANIMATION
+            VISIT CAST (Version 2)
           </button>
           <button
             className="teaserBtn"
@@ -144,7 +144,7 @@ export default function Home() {
               window.location.href = "https://ideas-laboratory.github.io/cast";
             }}
           >
-            VISIT CAST (V1.0)
+            VISIT CAST (Version 1)
           </button>
         </div>
       </div>

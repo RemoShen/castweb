@@ -113,16 +113,15 @@ export default function Tutorial() {
           Overview
         </h1>
         <p className="tutorial-text">
-          CAST uses a series of visual representations to
-          describe and generate expressive chart animations.
+          CAST uses a series of visual representations to describe and generate
+          expressive chart animations.
         </p>
         <h1 id="UI Components Link" className="tutorialh">
           UI Components
         </h1>
         <div className="ui-text">
           <p className="tutorial-text">
-            The user interface of CAST consists of the following
-            components:
+            The user interface of CAST consists of the following components:
           </p>
           <ol className="tutorial-text-list" type="a">
             {/* 小写英文字母排序 */}
@@ -136,16 +135,15 @@ export default function Tutorial() {
               mark selection.
             </li>
             <li>
-              <strong>Animation Panel:</strong> You can preview the data animation
-              you author.
+              <strong>Animation Panel:</strong> You can preview the data
+              animation you author.
             </li>
             {/* <li>
               <strong>Tool Menu:</strong> Title menu and some common functions.
             </li> */}
             <li>
-              <strong> Keyframe Panel:</strong>Illustrating and
-              authoring how the chart is animated using static visual
-              representations.
+              <strong> Keyframe Panel:</strong>Illustrating and authoring how
+              the chart is animated using static visual representations.
             </li>
             <div className="single-img">
               <img src={panel} className="kfgroup-img" alt=""></img>
@@ -160,11 +158,11 @@ export default function Tutorial() {
         </h2>
         <p className="tutorial-text">
           Chart animations can be represented with a keyframe sequence. For each
-          mark unit, CAST selects the last frame of its
-          animation as the keyframe. As shown in the following example, the
-          animation of the facet dot plots can be represented with a series of
-          frames, and one keyframe for each cell is extracted by Canis Studio
-          <sup>2</sup> to describe this animation.
+          mark unit, CAST selects the last frame of its animation as the
+          keyframe. As shown in the following example, the animation of the
+          facet dot plots can be represented with a series of frames, and one
+          keyframe for each cell is extracted by Canis Studio to describe this
+          animation.
         </p>
         <div className="fig-cap">
           <div className="figure">
@@ -192,9 +190,8 @@ export default function Tutorial() {
           The animation is used to convey data patterns. Thus the mark unit is
           created by gradually grouping all visual marks with data variables.
           And a hierarchical structure will be generated from this grouping
-          procedure. CAST uses title bars to represent this
-          grouping hierarchy, and the gray scale of the bar indicates the depth
-          level of this group.
+          procedure. CAST uses title bars to represent this grouping hierarchy,
+          and the gray scale of the bar indicates the depth level of this group.
         </p>
         <div className="single-img">
           <img src={group} className="kfgroup-img" alt=""></img>
@@ -203,8 +200,8 @@ export default function Tutorial() {
           Representation
         </h2>
         <p className="tutorial-text">
-          CAST uses the following properties to describe the
-          animation of each mark unit:
+          CAST uses the following properties to describe the animation of each
+          mark unit:
         </p>
         <ul className="tutorial-text-list">
           <li>
@@ -241,8 +238,7 @@ export default function Tutorial() {
           Author Chart Animations
         </h1>
         <p className="tutorial-text">
-          CAST uses the following four steps to author chart
-          animations:
+          CAST uses the following four steps to author chart animations:
         </p>
         <ul className="tutorial-text-list">
           <li>
@@ -305,7 +301,7 @@ export default function Tutorial() {
         <h3 className="sub3title">Selection Tools</h3>
         <p className="tutorial-text">
           As shown in the figure. There are three ways to select marks in Canis
-          Studio<sup>2</sup>:
+          Studio:
         </p>
         <div className="single-img">
           <img src={selection} className="selection-img" alt=""></img>
@@ -390,7 +386,7 @@ export default function Tutorial() {
           <img src={sort} className="selection-img" alt=""></img>
         </div>
 
-        <h3 className="sub3title">Bind 'start time' and 'duration' according to data for items</h3>
+        <h3 className="sub3title">Bind timing according to data for items</h3>
         <ul className="tutorial-text-list">
           <li>Hover your mouse into the kerframe title</li>
           <li>Select the binding target and binding data</li>

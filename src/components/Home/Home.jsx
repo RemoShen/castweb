@@ -3,6 +3,7 @@ import "./Home.css";
 import image1 from "./feature1.png";
 import image2 from "./feature2.png";
 import image3 from "./feature3.png";
+import video1 from "./teaser1.mp4";
 export default function Home() {
   // const LottieAnimation = ({ animationData }) => {
   //   const animationContainer = useRef(null);
@@ -201,12 +202,12 @@ export default function Home() {
           </div>
           <div className="feature-illus">
             <div style={{ width: "100%", height: "auto" }}>
-              {/* <video
-                src="./static/media/tutorial.ade406bb.mp4"
-                preload="auto"
-                controls=""
-                style="width: 100%; height: auto;"
-              ></video> */}
+              <video
+                src={video1}
+                // preload="auto"
+                controls={true}
+                style={{width: "100%", height: "auto"}}
+              ></video>
             </div>
           </div>
         </div>

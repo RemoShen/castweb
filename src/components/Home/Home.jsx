@@ -196,7 +196,7 @@ export default function Home() {
         <div className="feature-inner-container-col">
           <div className="feature-text">
             <p>
-              This video shows how CAST works in action with 2 examples
+              This video shows how CAST works in action with 1 examples
               scenarios.
             </p>
           </div>

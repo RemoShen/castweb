@@ -141,7 +141,7 @@ export default function Home() {
           <button
             className="teaserBtn"
             onClick={() => {
-              window.location.href = "https://ideas-laboratory.github.io/cast";
+              window.location.href = "https://ideas-laboratory.github.io/cast/system";
             }}
           >
             VISIT CAST (Version 1)

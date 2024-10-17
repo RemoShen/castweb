@@ -176,7 +176,7 @@ export default function GalleryPage() {
         ></video>
       </div>
 
-      <p className="author">How to another the animation:</p>
+      <p className="author">How to create the animation:</p>
       <video
         className="detail-video"
         src={galleryData[itemId].manipulateData}

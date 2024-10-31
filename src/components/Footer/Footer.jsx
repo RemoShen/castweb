@@ -4,7 +4,7 @@ export default function Footer() {
     <footer>
       <div className="footer-content">
         <span>
-          <a href="#" target='_blank'>
+          <a href="mailto:remoteshen@gmail.com" target='_blank'>
             Contact us
           </a>
         </span>

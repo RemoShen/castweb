@@ -16,6 +16,11 @@ export default function About() {
           <p>Shandong University</p>
         </div>
         <div className="card-item">
+          <div className="card-img yhw"></div>
+          <h4>Yunhai Wang</h4>
+          <p>Renmin University</p>
+        </div>
+        <div className="card-item">
           <div className="card-img gt"></div>
           <h4>Tong Ge</h4>
           <p>Shandong University</p>
@@ -28,12 +33,7 @@ export default function About() {
         <div className="card-item">
           <div className="card-img bl"></div>
           <h4>Bongshin Lee</h4>
-          <p>Microsoft Research</p>
-        </div>
-        <div className="card-item">
-          <div className="card-img yhw"></div>
-          <h4>Yunhai Wang</h4>
-          <p>Shandong University</p>
+          <p>Yonei University</p>
         </div>
       </div>
       <div className="pub-wrapper">
@@ -41,12 +41,12 @@ export default function About() {
         <div className="pub-item">
           <div className="pub-info">
             <h4>
-              Authoring Data-Driven Chart Animations[
+            Authoring Data-Driven Chart Animations through
+            Direct Manipulation[
               <a href="./CASTPlus.pdf" target="_blank">pdf</a>]
             </h4>
             <p>
-              Yuancheng Shen, Yue Zhao, Tong Ge, Haoyan Shi, Bongshin Lee,
-              Yunhai Wang
+              Yuancheng Shen, Yue Zhao, Yunhai Wang, Tong Ge, Haoyan Shi, Bongshin Lee
             </p>
             <p>
               <i></i>

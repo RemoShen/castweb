@@ -193,9 +193,6 @@ export default function Tutorial() {
           procedure. CAST uses title bars to represent this grouping hierarchy,
           and the gray scale of the bar indicates the depth level of this group.
         </p>
-        <div className="single-img">
-          <img src={group} className="kfgroup-img" alt=""></img>
-        </div>
         <h2 id="Representation Link" className="subh">
           Representation
         </h2>
@@ -232,7 +229,7 @@ export default function Tutorial() {
           properties, thus the effect and easing are shown on group level.
         </p>
         <div className="single-img">
-          <img src={properties} className="kfgroup-img" alt=""></img>
+          <img src={group} className="kfgroup-img" alt=""></img>
         </div>
         <h1 id="Author Chart Animations Link" className="tutorialh">
           Author Chart Animations
@@ -355,7 +352,7 @@ export default function Tutorial() {
           from the input chart.
         </p>
         <div className="single-img">
-          <img src={nextKf} className="spec-img" alt=""></img>
+          <img src={nextKf} className="next-img" alt=""></img>
         </div>
         <h2 id="Animating Link" className="subh">
           Animating
@@ -367,7 +364,7 @@ export default function Tutorial() {
         </p>
         <h3 className="sub3title">Specifying Timing To Keyframes</h3>
         <div className="single-img">
-          <img src={spec} className="spec-img" alt=""></img>
+          <img src={spec} className="next-img" alt=""></img>
         </div>
         <h3 className="sub3title">Change Effect & Easing To Keyframes</h3>
         <ul className="tutorial-text-list">

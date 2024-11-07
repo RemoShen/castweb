@@ -16,11 +16,6 @@ export default function About() {
           <p>Shandong University</p>
         </div>
         <div className="card-item">
-          <div className="card-img yhw"></div>
-          <h4>Yunhai Wang</h4>
-          <p>Renmin University</p>
-        </div>
-        <div className="card-item">
           <div className="card-img gt"></div>
           <h4>Tong Ge</h4>
           <p>Shandong University</p>
@@ -35,14 +30,18 @@ export default function About() {
           <h4>Bongshin Lee</h4>
           <p>Yonei University</p>
         </div>
+        <div className="card-item">
+          <div className="card-img yhw"></div>
+          <h4>Yunhai Wang</h4>
+          <p>Renmin University</p>
+        </div>
       </div>
       <div className="pub-wrapper">
         <h2>Publication</h2>
         <div className="pub-item">
           <div className="pub-info">
             <h4>
-            Authoring Data-Driven Chart Animations through
-            Direct Manipulation[
+            Authoring Data-Driven Chart Animations[
               <a href="./CASTPlus.pdf" target="_blank">pdf</a>]
             </h4>
             <p>

@@ -45,7 +45,7 @@ export default function About() {
               <a href="./CASTPlus.pdf" target="_blank">pdf</a>]
             </h4>
             <p>
-              Yuancheng Shen, Yue Zhao, Yunhai Wang, Tong Ge, Haoyan Shi, Bongshin Lee
+              Yuancheng Shen, Yue Zhao, Tong Ge, Haoyan Shi, Bongshin Lee, Yunhai Wang
             </p>
             <p>
               <i></i>

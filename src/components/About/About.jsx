@@ -41,11 +41,16 @@ export default function About() {
         <div className="pub-item">
           <div className="pub-info">
             <h4>
-            Authoring Data-Driven Chart Animations[
-              <a href="./CASTPlus.pdf" target="_blank">pdf</a>]
+              Authoring Data-Driven Chart Animations through Direct
+              Manipulation[
+              <a href="./CASTPlus.pdf" target="_blank">
+                pdf
+              </a>
+              ]
             </h4>
             <p>
-              Yuancheng Shen, Yue Zhao, Tong Ge, Haoyan Shi, Bongshin Lee, Yunhai Wang
+              Yuancheng Shen, Yue Zhao, Yunhai Wang, Tong Ge, Haoyan Shi,
+              Bongshin Lee
             </p>
             <p>
               <i></i>

@@ -16,6 +16,11 @@ export default function About() {
           <p>Shandong University</p>
         </div>
         <div className="card-item">
+          <div className="card-img yhw"></div>
+          <h4>Yunhai Wang</h4>
+          <p>Renmin University</p>
+        </div>
+        <div className="card-item">
           <div className="card-img gt"></div>
           <h4>Tong Ge</h4>
           <p>Shandong University</p>
@@ -29,11 +34,6 @@ export default function About() {
           <div className="card-img bl"></div>
           <h4>Bongshin Lee</h4>
           <p>Yonei University</p>
-        </div>
-        <div className="card-item">
-          <div className="card-img yhw"></div>
-          <h4>Yunhai Wang</h4>
-          <p>Renmin University</p>
         </div>
       </div>
       <div className="pub-wrapper">

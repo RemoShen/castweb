@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Gallery.css";
 import lottie from "lottie-web";
-import gal1_ani from "./gal1/hiring.json";
-import gal1_img from "./gal1/hiring.png";
+import gal1_ani from "./gal1/mekko.json";
+import gal1_img from "./gal1/mekko.png";
 import gal2_ani from "./gal2/dessert.json";
 import gal2_img from "./gal2/dessert.png";
 import gal3_ani from "./gal3/driving.json";
@@ -24,8 +24,8 @@ import gal10_ani from "./gal10/worldPopulation.json";
 import gal10_img from "./gal10/worldPopulation.png";
 import gal11_img from "./gal11/co2.png";
 import gal11_ani from "./gal11/co2.json";
-import gal12_img from "./gal12/purchase.png";
-import gal12_ani from "./gal12/purchase.json";
+import gal12_img from "./gal12/hiring.png";
+import gal12_ani from "./gal12/hiring.json";
 
 export default function Gallery() {
   const LottieAnimation = ({ animationData, staticImage }) => {
@@ -104,7 +104,7 @@ export default function Gallery() {
       id: 1,
       animationData: gal1_ani,
       staticImage: gal1_img,
-      title: "Salary and employment percentages",
+      title: "",
     },
     {
       id: 2,
@@ -170,7 +170,7 @@ export default function Gallery() {
       id: 12,
       animationData: gal12_ani,
       staticImage: gal12_img,
-      title: "Doughnut Purchase(1996-2014)",
+      title: "Salary and employment percentages",
     },
   ];
 

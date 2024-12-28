@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./GalleryPage.css";
-import gal1_ani from "../gal1/hiring_s.mp4";
-import gal1_img from "../gal1/hiring.png";
-import gal1_ani_s from "../gal1/hiring.mp4";
+import gal1_ani from "../gal1/mekko_s.mp4";
+import gal1_img from "../gal1/mekko.png";
+import gal1_ani_s from "../gal1/mekko.mp4";
 import gal2_ani from "../gal2/dessert_s.mp4";
 import gal2_img from "../gal2/dessert.png";
 import gal2_ani_s from "../gal2/dessert.mp4";
@@ -34,9 +34,9 @@ import gal10_ani_s from "../gal10/worldPopulation.mp4";
 import gal11_img from "../gal11/co2.png";
 import gal11_ani from "../gal11/co2_s.mp4";
 import gal11_ani_s from "../gal11/co2.mp4";
-import gal12_img from "../gal12/purchase.png";
-import gal12_ani from "../gal12/purchase_s.mp4";
-import gal12_ani_s from "../gal12/purchase.mp4";
+import gal12_img from "../gal12/hiring.png";
+import gal12_ani from "../gal12/hiring_s.mp4";
+import gal12_ani_s from "../gal12/hiring.mp4";
 export default function GalleryPage() {
   const { itemId } = useParams();
 
@@ -45,11 +45,11 @@ export default function GalleryPage() {
       animationData: gal1_ani,
       manipulateData: gal1_ani_s,
       staticImage: gal1_img,
-      title: "Salary and employment percentages",
+      title: "Per Capita Food Supply in 2013",
       chart:
-        "Chart: A bar and line chart describing the salary and employment percentages from 2010 to 2014.",
+        "Chart: The stacked bar chart showing per capita food supply (daily calories) in 2013",
       animation:
-        " Animation: Left axis first fade. Secondarly, the bar and year label starts fade, and the right axis fade. Then the percentage label and symbol grow. Finally, the line grow.",
+        " Animation: The bars wipe in stack after stack. The corresponding label fade in before the animation of the bars.",
     },
     {
       animationData: gal2_ani,
@@ -151,11 +151,11 @@ export default function GalleryPage() {
       animationData: gal12_ani,
       staticImage: gal12_img,
       manipulateData: gal12_ani_s,
-      title: "Doughnut Purchase(1996-2014)",
+      title: "Mobile Operating System Market Share",
       chart:
-        "Chart: A line chart describing the trend of doughnut purchases from 1996 to 2014.",
+        "This ribbon chart shows the market share of mobile operating systems from 2009 to 2016.",
       animation:
-        "Animation: The title and left y-axis and the x-axis-domain fade in first. Then the symbol fade in from left to right corresponding to the year label. Finally, the line grow from left to right with the text label.",
+        "Animation: The animation starts with the title first, then axis label wipe from left. Finally, each series of bars linked with bands wipes in one after another.",
     },
   ];
   return (
